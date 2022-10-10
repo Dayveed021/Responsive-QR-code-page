@@ -7,38 +7,38 @@
 body {
     background-color: rgb(216, 235, 240);
     width: 100%;
-    .qr-bgc {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    main {
         background-color: #fff;
-        width: 45%;
-        margin-left: 30%;
+        width: 200px;
         border-radius: 5px;
-        margin-top: 5%;
         text-align: center;
         box-shadow: 2px 3px 10px 0px rgb(197, 196, 196);
-        @media screen and(min-width: 992px) {
-            width: 20%;
-            margin-left: 40%;
-        }
-    
+
         .qr {
             width: 90%;
             padding-left: 5%;
             padding-top: 5%;
-    
+
             img {
                 width: 100%;
                 border-radius: 10px;
             }
         }
-        .text1{
-            font-weight: bold;
-            font-size: 16px;
+
+        h3 {
             margin-top: 1.25rem;
             width: 90%;
             padding-left: 5.5%;
-            
+
         }
-        .text2{
+
+        .text2 {
             color: rgb(169, 164, 164);
             font-size: 12px;
             margin-top: 0.8rem;
@@ -49,7 +49,7 @@ body {
     }
 }
 
-.attribution{
+.attribution {
     padding-top: 50px;
     text-align: center;
 }
